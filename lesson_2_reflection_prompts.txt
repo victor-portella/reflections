@@ -9,8 +9,10 @@ What value do you think it offers?
 
 	Ele armazena temporariamente arquivos para posteriormente adiciona-los a um commit. A vantagem é que podemos salvar mudanças em diversos arquivos em um mesmo commit.
 
-How can you use the staging area to make sure you have one commit per logical
+How can you use the staging area to make sure you have one commit per logical 
 change?
+	Pode-se usar o comando 'git status' para ver os arquivos alterados e adicionados a área de preparação. Assim, antes de fazer um commit, podemos conferir as mudamças que estaremos adicionado a este.
+
 
 
 
@@ -18,6 +20,7 @@ What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
 
+	Talvez você queira fazer mudanças experimentais no seu código ou até uma nova versão. Branches pemitem que você faça isso sem medo, já que você pode voltar a versão anterior a qualquer momento.
 
 How do the diagrams help you visualize the branch structure?
 
